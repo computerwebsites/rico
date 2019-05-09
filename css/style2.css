@@ -1,0 +1,92 @@
+body {
+  background: yellow;
+}
+a {
+  text-decoration: none;
+
+}
+li:hover {
+  color: white;
+  background-color: black;
+}
+li {
+  list-style: none;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 50px;
+  transition: all .3s ease;
+  border: 2px black solid;
+
+}
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-gap: 40px;
+  height: 25vh;
+  line-height: 100px;
+  transition: all .3s ease;
+}
+
+.footer {
+  margin-top: 5vh;
+  height: 20vh;;
+  border: 2px black solid;
+  background-color: yellow;
+}
+.lebron {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 40px;
+  height: 45vh;
+
+}
+.james {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 40px;
+  height: 45vh;
+
+}
+.jordan {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 40px;
+  height: 45vh;
+}
+.picture {
+  background-image: url(../images/lebron.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+.picture2 {
+  background-image: url(../images/james.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+.picture3 {
+  background-image: url(../images/jordan.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+.footer {
+  margin-top: 5vh;
+  height: 20vh;;
+  border: 2px black solid;
+  background-color: yellow;
+}
+.text {
+  border: 2px black solid;
+}
+.text2 {
+  border: 2px black solid;
+}
+.text3 {
+  border: 2px black solid;
+}
